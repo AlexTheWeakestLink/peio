@@ -226,6 +226,12 @@ h1, dropbtn  {
 
 .img {
     position: relative;
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.order {
+    position: relative;
 }
 
 .modalDialog {
