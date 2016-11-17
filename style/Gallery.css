@@ -230,6 +230,7 @@ h1, dropbtn  {
     max-width: 300px;
     max-height: 200px;
     padding: 2px;
+
 }
 
 .order {
@@ -275,7 +276,7 @@ h1, dropbtn  {
     color: #FFFFFF;
     line-height: 25px;
     position: absolute;
-    top: -20px;
+    top: -23px;
     right: auto;
     text-align: center;
     width: 24px;
@@ -296,4 +297,3 @@ h1, dropbtn  {
     -moz-transition: background-color 200ms ease-in-out;
     transition: background-color 200ms ease-in-out;
 }
-For our close button we set the background button and p
