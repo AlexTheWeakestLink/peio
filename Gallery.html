@@ -3,7 +3,7 @@
 <head>
 <title>Галерия</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="Gallery.css" type="text/css">
+<link rel="stylesheet" href="style/Gallery.css" type="text/css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -75,14 +75,25 @@
 </header>
         
 <div class="img">
-  <a href="#openModal"><img src="sample.jpg" alt="sample" width="300px" height="200px" ></a>
+  <a href="#openModal"><img src="img/sample.jpg" alt="sample" width="300px" height="200px" ></a>
       <div id="openModal" class="modalDialog">
           <div>
-            <img src="sample.jpg" alt="sample" width="600px" height="240px" >
+            <img src="img/sample.jpg" alt="sample" class="bimg" >
               <a href="#close" class="close" ><i class="fa fa-window-close" aria-hidden="true"></i></a>
 
           </div>
       </div>
+</div>
+
+<div class="img">
+    <a href="#openModal2"><img src="img/wide1.jpg" alt="sample" width="300px" height="200px" ></a>
+    <div id="openModal2" class="modalDialog">
+        <div>
+            <img src="img/wide1.jpg" alt="sample" class="bimg">
+            <a href="#close" class="close" ><i class="fa fa-window-close" aria-hidden="true"></i></a>
+
+        </div>
+    </div>
 </div>
         
 <script> function myFunction() {
