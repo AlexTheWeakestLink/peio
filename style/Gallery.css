@@ -260,14 +260,14 @@ h1, dropbtn  {
     text-align: center;
     background-size: cover;
     position: relative;
-    margin: 10% auto;
-    padding: 5px 20px 13px 20px;
+    margin: 5%;
+    padding: 5px 20px 10px 20px;
     border-radius: 10px;
 
 }
 
 .bimg{
-    max-width: 75%;
+    max-width: 50%;
 }
 
 .close {
