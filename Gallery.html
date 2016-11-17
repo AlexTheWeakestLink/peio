@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<title>Галерия</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Gallery.css" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
+</head>
+
+<body>
+    
+<div class="menu">
+    <ul class="opennav">
+      <div><a class="button" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a></div>   
+            <div id="navDemo" class="small">
+            <ul class="navbar">
+                <li>
+                    <div class="dropdown1">
+                        <button class="dropbtn">Биография</button>
+                            <div class="dropdown-content1">
+                                <a href="template.html">Кратка биография</a>
+                                <a href="Pulna_biografiq.html">Пълна биография</a>
+                            </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown1">
+                    <a href="tvorchestvo.html"><button class="dropbtn">Творчество</button></a>
+                        <div class="dropdown-content1">
+                            <a href="lirika.html">Лирика</a>
+                            <a href="epos.html">Епос</a>
+                            <a href="drama.html">Драма</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown1">
+                        <a href="Gallery.html"><button class="dropbtn">Галерия</button></a>
+                        <div class="dropdown-content1"></div>
+                    </div>
+                </li>
+            </ul>
+            </div>   
+    </ul>
+  <a href="index.html"><button class="home"><i class="fa fa-home" aria-hidden="true"></i></button></a>
+    <div class="dropdown">
+        <button class="dropbtn">Биография</button>
+            <div class="dropdown-content">
+                <a href="template.html">Кратка биография</a>
+                <a href="Pulna_biografiq.html">Пълна биография</a>
+            </div>
+    </div>
+
+    <div class="dropdown">
+        <a href="tvorchestvo.html"><button class="dropbtn">Творчество</button></a>
+            <div class="dropdown-content">
+                <a href="lirika.html">Лирика</a>
+                <a href="epos.html">Епос</a>
+                <a href="drama.html">Драма</a>
+            </div>
+    </div>
+
+    <div class="dropdown">
+        <a href="Gallery.html"><button class="dropbtn">Галерия</button></a>
+            <div class="dropdown-content">
+            </div>
+    </div>
+</div>
+        
+<header class="header">
+  <h1 id="header-text">Галерия</h1>
+</header>
+        
+<div class="img">
+  <a href="#openModal"><img src="sample.jpg" alt="sample" width="300px" height="200px" ></a>
+      <div id="openModal" class="modalDialog">
+          <div>
+            <img src="sample.jpg" alt="sample" width="600px" height="240px" >
+              <a href="#close" class="close" ><i class="fa fa-window-close" aria-hidden="true"></i></a>
+
+          </div>
+      </div>
+</div>
+        
+<script> function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("show") == -1) {
+        x.className += " show";
+    } else {
+        x.className = x.className.replace(" show", "");
+    }
+}
+</script>
+</body>
+</html>
