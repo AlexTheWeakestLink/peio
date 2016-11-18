@@ -235,6 +235,7 @@ h1, dropbtn  {
 
 .order {
     position: relative;
+    text-align: center;
 }
 
 .modalDialog {
@@ -272,7 +273,7 @@ h1, dropbtn  {
 }
 
 .close {
-    background: #00d9ff;
+    background: skyblue;
     color: #FFFFFF;
     line-height: 25px;
     position: absolute;
@@ -285,20 +286,22 @@ h1, dropbtn  {
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     border-radius: 12px;
-    -moz-box-shadow: 1px 1px 3px #000;
-    -webkit-box-shadow: 1px 1px 3px #000;
-    box-shadow: 1px 1px 3px #000;
     z-index: 100;
 }
 
 .close:hover {
-    background: #ff3333;
-    -webkit-transition: background-color 200ms ease-in-out;
-    -moz-transition: background-color 200ms ease-in-out;
-    transition: background-color 200ms ease-in-out;
+    background-color: red;
+    -webkit-transition: color 200ms ease-in-out;
+    -moz-transition: color 200ms ease-in-out;
+    transition: color 200ms ease-in-out;
 }
 
 h2 span {
     color: #fff;
     background-color: transparent;
+}
+
+.gallery {
+    margin: 0 5%;
+    align-content: center;
 }
