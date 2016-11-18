@@ -268,7 +268,7 @@ h1, dropbtn  {
 }
 
 .bimg{
-    max-width: 50%;
+    max-width: 75%;
 }
 
 .close {
@@ -276,7 +276,7 @@ h1, dropbtn  {
     color: #FFFFFF;
     line-height: 25px;
     position: absolute;
-    top: -23px;
+    top: -20px;
     right: auto;
     text-align: center;
     width: 24px;
@@ -296,4 +296,9 @@ h1, dropbtn  {
     -webkit-transition: background-color 200ms ease-in-out;
     -moz-transition: background-color 200ms ease-in-out;
     transition: background-color 200ms ease-in-out;
+}
+
+h2 span {
+    color: #fff;
+    background-color: transparent;
 }
