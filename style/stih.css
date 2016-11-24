@@ -211,7 +211,7 @@ h1, dropbtn  {
     margin: auto;
     padding-bottom: 18px;
     padding-top: 128px;
-    background-image: url("sample.jpg");
+    background-image: url("../img/sample.jpg");
     min-height: 400px;
     position: relative;
     opacity: 0.7;
